@@ -41266,7 +41266,7 @@ var PageHome = /*#__PURE__*/function (_React$Component) {
     value: function render() {
       return /*#__PURE__*/React.createElement("div", {
         "class": "container"
-      }, /*#__PURE__*/React.createElement("h1", null, "Aplicacion Andy Hinostroza"), /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(Titulo, {
+      }, /*#__PURE__*/React.createElement("h1", null, "Aplicacion Joseph"), /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(Titulo, {
         entidad: "Producto"
       }), /*#__PURE__*/React.createElement("button", {
         "class": "border border-1 border-primary rounded mb-1"
