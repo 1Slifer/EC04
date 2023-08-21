@@ -28,27 +28,27 @@ public class DatabaseLoader implements CommandLineRunner {
     @Override
     public void run(String... strings) throws Exception {
 
-        Producto pro1 = new Producto("CocaCola", 10);
-        Producto pro2 = new Producto("Bimbo", 2.5);
-        Producto pro3 = new Producto("Pepsi", 3);
+        Producto pro1 = new Producto("COMPUTADORA", 2200);
+        Producto pro2 = new Producto("IMPRESORA", 250);
+        Producto pro3 = new Producto("LATOP", 1500);
 
         this.repositoryP.save(pro1);
         this.repositoryP.save(pro2);
         this.repositoryP.save(pro3);
 
 
-        VentaLugar ven1 = new VentaLugar("Arequipa");
-        VentaLugar ven2 = new VentaLugar("Lima");
-        VentaLugar ven3 = new VentaLugar("Piura");
+        VentaLugar ven1 = new VentaLugar("LIMA");
+        VentaLugar ven2 = new VentaLugar("HUANUCO");
+        VentaLugar ven3 = new VentaLugar("LAMBAYEQUE");
 
         this.repositoryV.save(ven1);
         this.repositoryV.save(ven2);
         this.repositoryV.save(ven3);
 
 
-        VentaDetalle det1 = new VentaDetalle("A001",ven1, pro1, 2);
-        VentaDetalle det2 = new VentaDetalle("A002",ven2, pro2, 10);
-        VentaDetalle det3 = new VentaDetalle("A003",ven3, pro3, 5);
+        VentaDetalle det1 = new VentaDetalle("b001",ven1, pro1, 2);
+        VentaDetalle det2 = new VentaDetalle("b002",ven2, pro2, 10);
+        VentaDetalle det3 = new VentaDetalle("b003",ven3, pro3, 5);
 
         this.repositoryD.save(det1);
         this.repositoryD.save(det2);
